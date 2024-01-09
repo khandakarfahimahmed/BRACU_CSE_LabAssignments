@@ -1,0 +1,16 @@
+import java.util.Scanner;
+public class task05
+{
+  public static void main(String [] args)
+  {
+    Scanner sc = new Scanner(System.in);
+    System.out.println ("Give imput");
+    int n = sc.nextInt();
+    for (int i = 1;i<=n;i++)
+    {
+      for (int p = 0;p<=n;p++)
+        System.out.print("*");
+      System.out.println();
+    }
+  }
+}

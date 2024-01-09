@@ -1,0 +1,19 @@
+import java.util.Scanner;
+public class task09
+{
+  public static void main (String [] args)
+  {
+    Scanner sc = new Scanner (System.in);
+    System.out.println("ENter Quantity");
+    int q = sc.nextInt();
+    int star = 1;
+    for (int i = 1;i<=q;i++)
+    {
+      for (int p = q-i;p<=i;p++)
+        System.out.print(" ");
+      for (int k = 1; k<=star;k++)
+        System.out.print("*");
+      star+=2;
+    }
+  }
+}
